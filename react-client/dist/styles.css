@@ -4,6 +4,7 @@
 
 li {
   margin: 40px 10px;
+  display: inline;
 }
 
 a {
@@ -28,18 +29,28 @@ header {
   padding: 0;
 }
 
-.navButton {
-  float: vertical;
+.profileImage {
+  background-image: url("profile_image.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-footer {
-  margin: 0;
-  text-align: center;
 
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  color: white;
-  position: fixed;
+footer {
+  display: table;
+  left: 0;
   bottom: 0;
+  text-align: center;
+  width: 100%;
+  height: 75px;
+  background: linear-gradient(#00F260, #0575E6);
+  color: white;
+}
+
+footer > div {
+  display:table-cell;
+  vertical-align:middle;
+  padding:20px;
 }

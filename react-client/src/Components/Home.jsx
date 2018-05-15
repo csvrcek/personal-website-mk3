@@ -3,9 +3,12 @@ import React, {Component} from 'react';
 class Home extends Component {
 	render() {
 		return (
+		<div>
 			<div>
-				Home
+				<img class="profileImage" src="./Assets/profile_image.jpg"/> 
 			</div>
+
+		</div>
 		)
 	}
 }

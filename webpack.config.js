@@ -18,12 +18,15 @@ module.exports = {
         loader: 'style-loader!css-loader'
       },
       {
-        test: /\.png$/,
-        loader: 'url-loader?limit=100000&minetype=image/png'
-      },
-      {
-        test: /\.jpg/,
-        loader: 'file-loader'
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '/react-client/src/Assets/profile_image.jpg'
+            }
+          }
+        ]
       },
       {
         test : /\.jsx?/,
@@ -31,8 +34,8 @@ module.exports = {
         loader : 'babel-loader',      
         query: {
           presets: ['react', 'es2015']
-       }
-      }
+       },
+      },
     ]
   },
   plugins: [
