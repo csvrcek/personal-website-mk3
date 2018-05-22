@@ -12,7 +12,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router history={browserHistory}>
           <div>
             <Home/>
             <NavBar/>
@@ -20,7 +20,6 @@ class App extends Component {
             <Route name="resume" exact path="/resume" component={Resume} />
           </div>
         </Router>
-
         <Footer/>
       </div>
     )

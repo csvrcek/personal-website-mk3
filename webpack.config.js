@@ -22,9 +22,7 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {
-              name: '/react-client/src/Assets/profile_image.jpg'
-            }
+            options: {}
           }
         ]
       },
