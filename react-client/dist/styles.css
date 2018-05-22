@@ -2,6 +2,16 @@
   font-family: 'Lato';
 }
 
+html {
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background: linear-gradient(#00F260, #0575E6);
+  background-repeat:no-repeat;
+}
+
 li {
   margin: 40px 10px;
   display: inline;
@@ -31,6 +41,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 #profileImage {
