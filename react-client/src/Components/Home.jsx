@@ -1,43 +1,29 @@
 import React, {Component} from 'react';
 import profileImage from './Assets/profile_image.png';
 
-const profile = {
+const gradient = {
 	backgroundSize: "cover",
-	position: "relative",
+	width: "100%",
+	minHeight: "700px",
+};
+
+const profile = {
 	textAlign: "center",
 	color: "white",
-};
-
-const introText = {
-	position: "absolute",
-	top: "30%",
-	left: "25%",
-	width: "40%",
-	transform: "translate(-50%, -50%)",
-	textAlign: "left",
-};
-
-const rolesText = {
-	position: "absolute",
-	paddingTop: "100px",
-	top: "37%",
-	left: "25%",
-	transform: "translate(-50%, -50%)",
-	textAlign: "left",
+	paddingTop: "50px",
 };
 
 class Home extends Component {
 	render() {
 		return (
-		<div>
-			<div style={profile}>
-				<img style={ {width: "100%"} } src={profileImage} alt=""/>
-				<h1 style={introText}>Hello! My name is Connor Svrcek. Let's build something great together.</h1>
-				<h2 style={rolesText}>iOS | Web | Software Development</h2>
-				<h2 style={rolesText}>TODO: change to a gradient background and centered circular image?</h2>
+			<div style={gradient}>
+				<div style={profile}>
+					<h1>Hello! My name is Connor Svrcek.</h1>
+					<h1>Let's build something great together.</h1>
+					<img src={profileImage} style={{height:"300px", borderRadius:"50%", border:"3px solid white"}} alt="Profile image"/>
+					<h2>iOS | Web | Software Development</h2>
+				</div>
 			</div>
-
-		</div>
 		)
 	}
 }
