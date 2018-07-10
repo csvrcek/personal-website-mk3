@@ -3,6 +3,10 @@
   font-family: 'Lato';
 }
 
+h1 {
+  padding-left: 10px;
+}
+
 html {
   height: 100%;
   -webkit-background-size: cover;
