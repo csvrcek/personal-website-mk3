@@ -8,7 +8,7 @@ class Projects extends Component {
 		return (
 			<div class="viewportCover">
 				<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-					<h1>Projects</h1>
+					<h1 style={{paddingLeft: "10px"}}>Projects</h1>
 				</ScrollAnimation>
 
 				<div style={{display: "flex"}}>

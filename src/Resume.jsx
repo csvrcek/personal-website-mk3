@@ -24,7 +24,7 @@ class Resume extends Component {
 		return (
 			<div class="viewportCover">
 			    <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-					<h1>Resume</h1>
+					<h1 style={{paddingLeft: "10px"}}>Resume</h1>
 				</ScrollAnimation>
 				<div id="resume">
 					<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">

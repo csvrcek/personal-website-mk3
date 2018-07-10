@@ -16,7 +16,7 @@ class AboutMe extends Component{
     return (
       <div class="viewportCover">
         <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-          <h1>About Me</h1>
+          <h1 style={{paddingLeft: "10px"}}>About Me</h1>
         </ScrollAnimation>
         <div>
           <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
