@@ -59,7 +59,7 @@ AboutMe.defaultProps = {
       thumbnail: require("./Assets/hacking.jpg"),
       thumbnailWidth: 400,
       thumbnailHeight: 536,
-      caption: "Hacking away at one of Michigan Hackers' hack nights.",
+      caption: "Working on a personal project at one of Michigan Hackers' hack nights.",
     },
     {
       src: require("./Assets/hoola.jpg"),
