@@ -8,7 +8,7 @@ const Home = ({show}) => {
 	return (
 		<div class="viewportCover">
 			<div class="profile">
-				<h1 id="first" class="animated fadeInUp">Hello! My name is YOUR MOTHER.</h1>
+				<h1 id="first" class="animated fadeInUp">Hello! My name is Connor Svrcek.</h1>
 				<h1 id="second" class="animated fadeInUp">Let's build something great together.</h1>
 				<img id="profileImage" class="animated fadeInUp" src={profileImage} style={{height:"300px", borderRadius:"50%", border:"3px solid white"}} alt="Connor Svrcek"/>
 				<h2 id="jobs" class="animated fadeInUp">iOS | Web | Software Development</h2>
