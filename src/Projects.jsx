@@ -14,7 +14,6 @@ class Projects extends Component {
 				<div style={{display: "flex"}}>
 
 					{/* Michigan Hackers */}
-					{/* TODO: add an info page to learn more*/}
 					<div style={{padding:"40px 70px 10px 225px"}}>
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 							<div class="card">
@@ -42,7 +41,7 @@ class Projects extends Component {
 									<FontAwesomeIcon icon={['fab', 'react']} size="3x"/>
 									<h2>Personal Website</h2>
 									<p>I created this website to showcase my interests and skills, 
-									built with ReactJS, NodeJS, Webpack, and CSS.</p>
+									built with ReactJS, NodeJS and CSS.</p>
 									<br/>
 									<br/>
 									<a href="https://github.com/csvrcek/personal-website-mk3" style={{transition: "0.3s"}}>

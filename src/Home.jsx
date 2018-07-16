@@ -11,13 +11,11 @@ class Home extends Component {
 				<div class="profile">
 					<h1 id="first" class="animated fadeInUp">Hello! My name is Connor Svrcek.</h1>
 					<h1 id="second" class="animated fadeInUp">Let's build something great together.</h1>
-					<img id="profileImage" class="animated fadeInUp" src={profileImage} style={{height:"300px", borderRadius:"50%", border:"3px solid white"}} alt="Connor Svrcek"/>
+					<img id="profileImage" class="animated bounceIn" src={profileImage} style={{height:"300px", borderRadius:"50%", border:"3px solid white"}} alt="Connor Svrcek"/>
 					<h2 id="jobs" class="animated fadeInUp">iOS | Web | Software Development</h2>
-					<button type="button" style={{display:"none"}}>
-						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" offset = "0" delay = "2000" duration = "0.5">
-							<FontAwesomeIcon icon="angle-down" size="3x"/>
-						</ScrollAnimation>
-					</button>
+					<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" offset = "0" delay = "2000" duration = "0.5">
+						<FontAwesomeIcon icon="angle-down" size="3x"/>
+					</ScrollAnimation>
 				</div>
 			</div>
 		)
