@@ -18,7 +18,7 @@ class Footer extends Component {
 	         	</a>
 
 	         	{/* Linkedin */}
-	         	<a href="www.linkedin.com/in/connor-svrcek">
+	         	<a href="https://www.linkedin.com/in/connor-svrcek">
 	         		<FontAwesomeIcon style={{padding:"20px", transition: "0.3s"}} icon={['fab', 'linkedin']} size="2x"/>
 	         	</a>
 
