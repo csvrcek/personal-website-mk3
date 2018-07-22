@@ -42,9 +42,16 @@ img {
 .profile {
   text-align: center;
   color: white;
-  padding-top: 50px;
+  padding-top: 10px;
   opacity: 1;
   visibility: visible; 
+}
+
+/* Tablet and Desktop */
+@media screen and (min-width: 490px) {
+  .profile {
+    padding-top: 50px;
+  }
 }
 
 #first {
@@ -76,13 +83,16 @@ img {
 /* About Me */
 #aboutMe {
   text-align: center;
-  margin: 100px 200px 100px 200px;
+  margin: 100px 20px 100px 20px;
 }
 
-@media screen and (max-width: 400px) {
+/*margin: 100px 200px 100px 200px;*/
+
+/* Desktop */
+@media screen and (min-width: 960px) {
   #aboutMe {
     text-align: center;
-    margin: 100px 20px 100px 20px;
+    margin: 100px 200px 100px 200px;
   }
 }
 
@@ -108,7 +118,7 @@ img {
 
 @media screen and (max-width: 400px) {
   #resume {
-    margin-left: 0;
+    margin-left: -1.5rem;
     margin-right: 0;
     width: 100%;
   }
