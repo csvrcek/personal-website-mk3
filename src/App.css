@@ -8,10 +8,10 @@
 
 html {
   height: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   background: linear-gradient(#00F260, #0575E6);
   background-repeat:no-repeat;
 }
@@ -32,6 +32,10 @@ p {
 
 body {
   height: 1000px;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Home */
@@ -75,6 +79,13 @@ body {
   margin: 100px 200px 100px 200px;
 }
 
+@media screen and (max-width: 400px) {
+  #aboutMe {
+    text-align: center;
+    margin: 100px 20px 100px 20px;
+  }
+}
+
 #arrowIcon {
   display: block;
   margin-left: auto;
@@ -93,6 +104,14 @@ body {
   cursor: -webkit-zoom-in; 
   cursor: zoom-in;
   */
+}
+
+@media screen and (max-width: 400px) {
+  #resume {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
 }
 
 #printableText {
@@ -121,6 +140,34 @@ body {
 
 .bottomLeftIcon:hover {
   color: blue;
+}
+
+.higherCard {
+  padding: 15px 10px 15px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+#allCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Tablet */
+@media screen and (min-width: 660px){
+  .higherCard {
+    width: 50%;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 961px) {
+  #allCards {
+    width: 960px;
+    margin: 0 auto;
+  }
 }
 
 

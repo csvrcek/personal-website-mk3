@@ -22,7 +22,7 @@ class Resume extends Component {
 		const { pageNumber } = this.state;
 
 		return (
-			<div class="viewportCover">
+			<div className="viewportCover">
 			    <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 					<h1 style={{paddingLeft: "10px"}}>Resume</h1>
 				</ScrollAnimation>
@@ -31,7 +31,7 @@ class Resume extends Component {
 						<Document file={resume} onLoadSuccess={this.onDocumentLoad} noData="PDF file not found.">
 					          <Page pageNumber={pageNumber} />
 					    </Document>
-					    <div id="printableText" >
+					    <div id="printableText">
 					    	<a href={resume} style={{transition:"0.3s"}}>Printable copy</a>
 					    </div>
 					 </ScrollAnimation>

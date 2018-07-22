@@ -5,8 +5,7 @@ class Footer extends Component {
   render() {
     return (
       <div id="footer">
-        <div class="footerContent">
-        {/* TODO: make footer flush with sides of screen */}
+        <div className="footerContent">
         	<div style={{paddingTop:"30px"}}>
           		Made with ❤️ by Connor Svrcek
           	</div>

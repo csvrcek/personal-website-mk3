@@ -6,25 +6,25 @@ import ScrollAnimation from 'react-animate-on-scroll';
 class Projects extends Component {
 	render() {
 		return (
-			<div class="viewportCover">
+			<div className="viewportCover">
 				<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 					<h1 style={{paddingLeft: "10px"}}>Projects</h1>
 				</ScrollAnimation>
 
-				<div style={{display: "flex"}}>
+				<div id="allCards">
 
 					{/* Michigan Hackers */}
-					<div style={{padding:"40px 70px 10px 225px"}}>
+					<div className = "higherCard">
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-							<div class="card">
-								<div class="container">
+							<div className="card">
+								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
 									<h2>Michigan Hackers</h2>
 									<p>An iOS application to display the events and calendar of Michigan Hackers 
 									as well as some resources for students to get involved.</p>
 									<br/>
 									<a href="https://github.com/michiganhackers/MichiganHackersiOSApp" style={{transition: "0.3s"}}>
-										<FontAwesomeIcon icon={Icons.faAngleRight} size="1.5x" 
+										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
 										color="black" style={{transition: "0.3s"}}/> 
 										Github Repository
 									</a>
@@ -34,10 +34,10 @@ class Projects extends Component {
 					</div>
 
 					{/* Personal Website */}
-					<div style={{padding:"40px 175px 10px 70px"}}>
+					<div className="higherCard">
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
-							<div class="card">
-								<div class="container">
+							<div className="card">
+								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'react']} size="3x"/>
 									<h2>Personal Website</h2>
 									<p>I created this website to showcase my interests and skills, 
@@ -45,7 +45,7 @@ class Projects extends Component {
 									<br/>
 									<br/>
 									<a href="https://github.com/csvrcek/personal-website-mk3" style={{transition: "0.3s"}}>
-										<FontAwesomeIcon icon={Icons.faAngleRight} size="1.5x" 
+										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
 										color="black" style={{transition: "0.3s"}}/> 
 										Github Repository
 									</a>
@@ -53,22 +53,20 @@ class Projects extends Component {
 							</div>
 						</ScrollAnimation>
 					</div>
-				</div>
 
-				<div style={{display: "flex"}}>
 
 					{/* Muse */}
-					<div style={{padding:"40px 70px 10px 225px"}}>
+					<div className = "higherCard">
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-							<div class="card">
-								<div class="container">
+							<div className="card">
+								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
 									<h2>Muse</h2>
 									<p>An iOS proof of concept app designed to show the user news
 									about their favorite artists and suggest new music to listen to.</p>
 									<br/>
 									<a href="https://github.com/csvrcek/Muse" style={{transition: "0.3s"}}>
-										<FontAwesomeIcon icon={Icons.faAngleRight} size="1.5x" 
+										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
 										color="black"/> 
 										Github Repository
 									</a>
@@ -78,10 +76,10 @@ class Projects extends Component {
 					</div>
 
 					{/* Magic8 */}
-					<div style={{padding:"40px 175px 10px 70px"}}>
+					<div className="higherCard">
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
-							<div class="card">
-								<div class="container">
+							<div className="card">
+								<div className="container">
 									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
 									<h2>Magic8</h2>
 									<p>This iOS app was made for the purpose of emulating a magic 8 ball
@@ -89,7 +87,7 @@ class Projects extends Component {
 									<br/>
 									<br/>
 									<a href="https://github.com/csvrcek/Magic8" style={{transition: "0.3s"}}>
-										<FontAwesomeIcon icon={Icons.faAngleRight} size="1.5x" 
+										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
 										color="black"/> 
 										Github Repository
 									</a>
