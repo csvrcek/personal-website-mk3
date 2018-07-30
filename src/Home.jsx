@@ -5,6 +5,14 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import styles from './App.css';
 
 class Home extends Component {
+	scrollAVH() {
+		window.scroll({
+			top: window.innerHeight,
+			left: 0, 
+  			behavior: 'smooth'
+		});
+	}
+
 	render() {
 		return (
 			<div className="viewportCover">
@@ -14,17 +22,12 @@ class Home extends Component {
 					<img id="profileImage" className="animated bounceIn" src={profileImage} style={{height:"300px", borderRadius:"50%", border:"3px solid white"}} alt="Connor Svrcek"/>
 					<h2 id="jobs" className="animated fadeInUp">iOS | Web | Software Development</h2>
 					<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" offset = "0" delay = "2000" duration = "0.5">
-						<FontAwesomeIcon icon="angle-down" size="3x"/>
+						<span style={{cursor:"pointer"}} onClick={this.scrollAVH}><FontAwesomeIcon icon="angle-down" className="pulse" size="3x"/></span>
 					</ScrollAnimation>
 				</div>
 			</div>
 		)
 	}
-
-	scrollAVH() {
-		window.scrollBy(0, window.innerHeight / 2);
-	}
-
 };
 
 export default Home;
