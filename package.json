@@ -1,6 +1,6 @@
 {
-  "name": "test-app",
-  "homepage": "http://connorsvrcek.com/",
+  "name": "personal-website",
+  "homepage": "https://connorsvrcek.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
