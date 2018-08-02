@@ -32,7 +32,7 @@ class AboutMe extends Component{
           <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
             <Gallery images={this.state.images}/>
           </ScrollAnimation>
-        </div>      
+        </div>
       </div>
     )
   }
