@@ -54,6 +54,27 @@ class Projects extends Component {
 						</ScrollAnimation>
 					</div>
 
+					{/* Tockr */}
+					<div className="higherCard">
+						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
+							<div className="card">
+								<div className="container">
+									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
+									<h2>Tockr</h2>
+									<p>A "pomodoro technique" iOS application written in 
+									Swift using open source frameworks.</p>
+									<br/>
+									<br/>
+									<a href="https://github.com/csvrcek/Tockr" style={{transition: "0.3s"}}>
+										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
+										color="black"/> 
+										Github Repository
+									</a>
+								</div>
+							</div>
+						</ScrollAnimation>
+					</div>
+
 
 					{/* Muse */}
 					<div className = "higherCard">
@@ -75,26 +96,7 @@ class Projects extends Component {
 						</ScrollAnimation>
 					</div>
 
-					{/* Magic8 */}
-					<div className="higherCard">
-						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true" delay="500">
-							<div className="card">
-								<div className="container">
-									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
-									<h2>Magic8</h2>
-									<p>This iOS app was made for the purpose of emulating a magic 8 ball
-									(my first app ever!).</p>
-									<br/>
-									<br/>
-									<a href="https://github.com/csvrcek/Magic8" style={{transition: "0.3s"}}>
-										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
-										color="black"/> 
-										Github Repository
-									</a>
-								</div>
-							</div>
-						</ScrollAnimation>
-					</div>
+					
 				</div>
 
 				<br/>
