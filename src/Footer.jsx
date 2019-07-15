@@ -7,7 +7,7 @@ class Footer extends Component {
       <div id="footer">
         <div className="footerContent">
         	<div style={{paddingTop:"30px"}}>
-          		Made with ❤️ by Connor Svrcek
+          		Made with <span role="img" aria-label="Heart">❤️</span> by Connor Svrcek
           	</div>
 
 	        <div>
