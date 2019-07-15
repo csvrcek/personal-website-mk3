@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import profileImage from './Assets/profile_image.png';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import ScrollAnimation from 'react-animate-on-scroll';
+import styles from './App.css';
 
 class Home extends Component {
 	scrollAVH() {
