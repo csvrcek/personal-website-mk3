@@ -13,7 +13,7 @@ class Projects extends Component {
 
 				<div id="allCards">
 
-					{/* Michigan Hackers */}
+					{/* Michigan Hackers iOS */}
 					<div className = "higherCard">
 						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
 							<div className="card">
@@ -26,6 +26,26 @@ class Projects extends Component {
 									<a href="https://github.com/michiganhackers/MichiganHackersiOSApp" style={{transition: "0.3s"}}>
 										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
 										color="black" style={{transition: "0.3s"}}/> 
+										Github Repository
+									</a>
+								</div>
+							</div>
+						</ScrollAnimation>
+					</div>
+
+					{/* MHacks iOS */}
+					<div className = "higherCard">
+						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
+							<div className="card">
+								<div className="container">
+									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
+									<h2>MHacks</h2>
+									<p>The official MHacks iOS app for use during the hackathon with a schedule of events, 
+										ticket, and other interactive features.</p>
+									<br/>
+									<a href="https://github.com/mhacks/mhacks-ios" style={{transition: "0.3s"}}>
+										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
+										color="black"/> 
 										Github Repository
 									</a>
 								</div>
@@ -66,27 +86,6 @@ class Projects extends Component {
 									<br/>
 									<br/>
 									<a href="https://github.com/csvrcek/Tockr" style={{transition: "0.3s"}}>
-										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
-										color="black"/> 
-										Github Repository
-									</a>
-								</div>
-							</div>
-						</ScrollAnimation>
-					</div>
-
-
-					{/* Muse */}
-					<div className = "higherCard">
-						<ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
-							<div className="card">
-								<div className="container">
-									<FontAwesomeIcon icon={['fab', 'apple']} size="3x"/>
-									<h2>Muse</h2>
-									<p>An iOS proof of concept app designed to show the user news
-									about their favorite artists and suggest new music to listen to.</p>
-									<br/>
-									<a href="https://github.com/csvrcek/Muse" style={{transition: "0.3s"}}>
 										<FontAwesomeIcon icon={Icons.faAngleRight} size="1x" 
 										color="black"/> 
 										Github Repository
