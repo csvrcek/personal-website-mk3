@@ -21,9 +21,9 @@ class AboutMe extends Component{
         <div>
           <ScrollAnimation animateIn = "fadeInUp" animateOnce = "true">
             <p id="aboutMe">I am a <b>computer science student </b>
-            at the <b>University of Michigan - Ann Arbor</b> with a <b>minor in Entrepreneurship</b>. 
+            at the <b>University of Michigan - Ann Arbor</b>. 
             My passions lie in all things <b> iOS and web</b>, but I love all software development as well.
-            When I'm not programming I'm either outside enjoying the company of friends, reading, playing guitar,
+            When I'm not programming I'm either outside enjoying the company of friends, reading, playing tennis,
             or spending time with my family and our dog. </p>
           </ScrollAnimation>
         </div>
