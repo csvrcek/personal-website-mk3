@@ -4,11 +4,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/0118a21553a1eb38f613.worker.js"
   },
   {
-    "revision": "0c2f3f8cb6568366d6cad1336dfec155",
+    "revision": "3cae546815aaf3bdb8fc4de351989249",
     "url": "/index.html"
   },
   {
-    "revision": "65dce6efd25304e09f3e",
+    "revision": "26bde9b7ac436579f0c7",
     "url": "/static/css/main.c75ae443.chunk.css"
   },
   {
@@ -16,16 +16,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.d487855e.chunk.js"
   },
   {
-    "revision": "65dce6efd25304e09f3e",
-    "url": "/static/js/main.a8155bc4.chunk.js"
+    "revision": "26bde9b7ac436579f0c7",
+    "url": "/static/js/main.8b6c6f12.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
     "url": "/static/js/runtime~main.a8a9905a.js"
-  },
-  {
-    "revision": "5fbafcd66af7d4d383b735958656a2ad",
-    "url": "/static/media/Connor Svrcek Resume.5fbafcd6.pdf"
   },
   {
     "revision": "2947335e8621388ba95ac3c06911b092",
@@ -54,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "917e7e1cf3c2a7e48841648c5b823156",
     "url": "/static/media/profile_image.917e7e1c.png"
+  },
+  {
+    "revision": "eafa123d6674c6bcacab1a0a894e078d",
+    "url": "/static/media/resume.eafa123d.pdf"
   },
   {
     "revision": "9963842d97e132c94e7b718f57746050",
