@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
-import resume from './Assets/Connor Svrcek Resume.pdf';
+import resume from './Assets/resume.pdf';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 class Resume extends Component {
