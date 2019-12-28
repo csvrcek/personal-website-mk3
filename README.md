@@ -3,11 +3,19 @@ An updated version of my personal website using React and NodeJS.
 
 # How to run (dev)
 
-Build and run the Docker image
+Build and run the Docker image.
 
 ```shell
 $ docker-compose up
 ```
+
+Or run
+
+```shell
+$ docker-compose up --build
+```
+
+to rebuild image from scratch.
 
 It's that simple!
 
