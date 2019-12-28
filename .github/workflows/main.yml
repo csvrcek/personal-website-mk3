@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout
+    - name: build
+      run: |
+        echo 'Building docker image...'
+        docker build -t website:latest .
+        echo 'Running container...'
+        docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm website:latest
+
+  deploy:
+    
+    runs-on: [ubuntu-latest]
+    
+    steps:
+    - uses: actions/checkout
+    - name: deploy
+      run: |
+        echo 'Deploying...'
+        npm run deploy
