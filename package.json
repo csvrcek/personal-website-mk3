@@ -23,11 +23,11 @@
     "gh-pages": "^1.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --max_old_space_size=4096 start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build && gh-pages -b master -d build"
   },
   "browserslist": {
     "production": [
