@@ -21,7 +21,10 @@ It's that simple!
 
 # How to deploy
 ```shell
-$ npm run deploy
+$ docker build . -t <CONT_TAG>
+$ docker run <CONT_TAG>:latest
 ```
+Or simply push to `master` to initiate the GitHub Action pipeline.
+
 * Go into repo settings
 * Under `Github Pages` add in the `Custom Domain` value to `connorsvrcek.com` (**TODO:** not sure why this is needed, should fix)
