@@ -27,7 +27,7 @@
     "build": "react-scripts --max_old_space_size=4096 build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -b master -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "browserslist": {
     "production": [
