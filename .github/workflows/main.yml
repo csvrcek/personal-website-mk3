@@ -6,26 +6,26 @@ on:
       - master
 
 jobs:
-#   build:
+  build:
 
-#     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-#     steps:
-#     - uses: actions/checkout@v2
-#     - name: build
-#       run: |
-#         echo 'Building docker image...'
-#         docker build -t website:latest .
-#         echo 'Running container...'
-#         docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm website:latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: build
+      run: |
+        echo 'Building docker image...'
+        docker build -t website:latest .
+        echo 'Build completed.'
 
   deploy:
     
-    runs-on: [ubuntu-latest]
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
     - name: deploy
       run: |
         echo 'Deploying...'
-        npm run deploy
+        docker run website:latest
+        echo 'Deploy complete.'
