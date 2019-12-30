@@ -9,4 +9,4 @@ services:
         ports:
             - 3000:3000
             - 9229:9229
-        command: npm run start
+        command: npm start
