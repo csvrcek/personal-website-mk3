@@ -13,9 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build
+      env: 
+        GITHUB_PASSWORD: ${{ secrets.GITHUB_PASSWORD }}
       run: |
         echo 'Building...'
-        docker build -t website:latest .
+        docker build -t website:latest --build-arg GH_PASS_ARG=$GITHUB_PASSWORD .
         echo 'Build completed.'
 
   deploy:
