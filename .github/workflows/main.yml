@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build:
+  build-and-deploy:
 
     runs-on: ubuntu-latest
 
@@ -19,15 +19,7 @@ jobs:
         echo 'Building...'
         docker build -t website:latest --build-arg GH_PASS_ARG=$GITHUB_PASSWORD .
         echo 'Build completed.'
-
-  deploy:
-    
-    runs-on: ubuntu-latest
-    
-    steps:
-    - uses: actions/checkout@v2
-    - name: deploy
-      run: |
         echo 'Deploying...'
         docker run website:latest
         echo 'Deploy complete.'
+        
