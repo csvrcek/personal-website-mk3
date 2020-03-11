@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import profileImage from './Assets/profile_image.png';
+import profileImage from './Assets/profile_image.JPG';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import ScrollAnimation from 'react-animate-on-scroll';
 // eslint-disable-next-line

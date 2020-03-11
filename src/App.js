@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Home from './Home';
-import AboutMe from './AboutMe';
 import Footer from './Footer';
 import Resume from './Resume';
 import Projects from './Projects';
@@ -16,7 +15,6 @@ class App extends Component {
     return (
       <div>
         <Home/>
-        <AboutMe/>
         <Resume/>
         <Projects/>
         <Footer/>
