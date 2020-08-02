@@ -1,6 +1,8 @@
 # personal-website-mk3
 An updated version of my personal website using React and NodeJS.
 
+**NOTE:** As of 8/5/2020 the domain name `connorsvrcek.com` has expired. Must be renewed for website to get back online.
+
 # How to run (dev)
 
 Build and run the Docker image.
